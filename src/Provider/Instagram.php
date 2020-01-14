@@ -18,7 +18,9 @@ class Instagram extends AbstractProvider
      *
      * @var array
      */
-    public $defaultScopes = ['user_profile','user_media'];
+    public $defaultScopes = ['user_profile', 'user_media'];
+
+    private $scopeSeparator = ',';
 
     // Scopes are similar to permissions. There are no scopes in the Basic Display API
     public $defaultPermissions = ['instagram_graph_user_profile'];
