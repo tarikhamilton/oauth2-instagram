@@ -43,16 +43,6 @@ class Instagram extends AbstractProvider
     }
 
     /**
-     * Get the string used to separate scopes.
-     *
-     * @return string
-     */
-    protected function getScopeSeparator()
-    {
-        return ' ';
-    }
-
-    /**
      * Get authorization url to begin OAuth flow
      *
      * @return string
